@@ -542,6 +542,7 @@ ul li a{
   flex-wrap: wrap; /* responsive layout */
   margin-top: 30px;
 }
+
 #certificates-courses h2 {
   font-size: 32px;
   color: #2c3e50;
@@ -559,6 +560,10 @@ ul li a{
   background: #4a90e2;
   margin: 8px auto 0; /* center underline */
   border-radius: 2px;
+}
+.single-center {
+  justify-content: center;  /* ensures it's centered */
+  margin-top: 30px;
 }
 
 
@@ -846,5 +851,6 @@ ul li a{
     font-size: 14px;
   }
 }
+
 
   
