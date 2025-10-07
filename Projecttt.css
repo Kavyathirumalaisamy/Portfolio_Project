@@ -17,10 +17,7 @@ header.navbar {
   z-index: 1000;            /* stays above other elements */
 
 }
-/* Hide slicknav menu on desktop */
-.slicknav_menu {
-  display: none;
-}*
+
 /* Scroll to Top Button */
 .scroll-top {
   position: fixed;
@@ -792,36 +789,6 @@ ul li a{
 }
 
 /* Keep all your existing CSS */
-/* I’ll just add fixes for SlickNav */
-
-.slicknav_menu {
-  display: none; /* hidden on desktop */
-}
-
-/* Show SlickNav only on mobile */
-@media (max-width: 768px) {
-  nav {
-    display: none; /* hide normal nav */
-  }
-  .slicknav_menu {
-    display: block;
-    background: #ffffff;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  }
-  .slicknav_nav a {
-    color: #021d33;
-    font-size: 16px;
-    padding: 10px;
-  }
-  .slicknav_nav a:hover {
-    background: #f0f0f0;
-    border-radius: 5px;
-  }
-  .slicknav_btn {
-    background: #4d8bd3 !important;
-    border-radius: 5px;
-  }
-}
 
 
 /* Extra Small Mobile (≤480px) */
@@ -854,3 +821,4 @@ ul li a{
 
 
   
+
